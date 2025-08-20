@@ -1,0 +1,46 @@
+{
+    "layer": "top",
+    "position": "top",
+    "modules-right": ["battery","memory", "cpu"],
+    "modules-center" : ["clock"],
+    "modules-left" : ["hyprland/workspaces","network"],
+    "cpu" : {
+	
+	   "format" : "{icon}  {usage}%",
+	   "format-icons" : ""
+
+    },
+    "memory" : {
+	"format": "{icon}  {percentage}%",
+	"format-icons": ""
+    },
+
+    "clock": {
+ 	"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+ 	"format": "{:%a, %d. %b  %H:%M}"
+    },
+    "battery" : {
+	"format": " {capacity}% {icon} ",
+	"format-icons" : [" ", " "," "],
+	"tooltip": true
+    },
+	
+    "network": { 
+	   "format": "   {essid}",
+	   "format-disconnected" : "  None",
+	
+	   "tooltip": true,
+	   "tooltip-format": "{ifname}"
+    	
+
+    },
+
+    "hyprland/workspaces" : {
+	"update-active-window": true
+    }
+
+
+
+
+}
+
