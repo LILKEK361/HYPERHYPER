@@ -9,4 +9,15 @@ $ ~/.config/waybar $
 
 
 ## QoL
+-
 Install wdisplay for an easy Screen manager
+-
+dunst for notifications
+-
+
+#TODO:
+- Tooltips in waybar
+- Notigfication
+- Bluetoothmaanger
+- screenmanager
+- wallpaper
