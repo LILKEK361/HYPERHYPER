@@ -8,16 +8,22 @@ and the waybarconfig.conf under:
 $ ~/.config/waybar $
 
 
+
+
 ## QoL
--
+--
 Install wdisplay for an easy Screen manager
 -
 dunst for notifications
 -
-
+Logout: kill -9 -1
+-
+ULauncher for application menu
+-
 #TODO:
 - Tooltips in waybar
 - Notigfication
 - Bluetoothmaanger
 - screenmanager
 - wallpaper
+- installer script
