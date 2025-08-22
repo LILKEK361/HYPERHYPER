@@ -11,12 +11,14 @@ $ ~/.config/waybar $
 
 
 ## QoL
--
+--
 Install wdisplay for an easy Screen manager
 -
 dunst for notifications
 -
 Logout: kill -9 -1
+-
+ULauncher for application menu
 -
 #TODO:
 - Tooltips in waybar
@@ -24,3 +26,4 @@ Logout: kill -9 -1
 - Bluetoothmaanger
 - screenmanager
 - wallpaper
+- installer script
