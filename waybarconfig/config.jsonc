@@ -4,6 +4,7 @@
     "modules-right": ["battery","memory", "cpu"],
     "modules-center" : ["clock"],
     "modules-left" : ["hyprland/workspaces","network"],
+    "tooltip" : true,
     "cpu" : {
 	
 	   "format" : "{icon}  {usage}%",
@@ -16,7 +17,8 @@
     },
 
     "clock": {
- 	"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+	    "tooltip" : true,
+	    "tooltip-format": "<span><big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt></span>",
  	"format": "{:%a, %d. %b  %H:%M}"
     },
     "battery" : {
@@ -28,15 +30,19 @@
     "network": { 
 	   "format": "   {essid}",
 	   "format-disconnected" : "  None",
-	
+	   "format-ethernet": "   {essid}",
+
 	   "tooltip": true,
-	   "tooltip-format": "{ifname}"
+	   "tooltip-format": "aaaaaaaaaaaaaa"
+	   
     	
 
     },
 
     "hyprland/workspaces" : {
-	"update-active-window": true
+	"tooltip" : true,
+	"update-active-window": true,
+	"tooltip-format" : "{windows}"
     }
 
 
